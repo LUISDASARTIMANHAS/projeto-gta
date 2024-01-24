@@ -11,8 +11,8 @@
     <meta http-equiv="Strict-Transport-Security" content="max-age=31536000; includeSubDomains; preload">
     <link rel="icon" href="./src/assets/favicon.png" />
     <link rel="shortcut icon" href="./src/assets/favicon.png" type="image/x-icon">
-    <link rel="stylesheet" href="./src/css/style.css" priority="1">
-    <link rel="stylesheet" href="./src/css/reset.css" priority="0">
+    <link rel="stylesheet" href="src/css/style.css" priority="1">
+    <link rel="stylesheet" href="src/css/reset.css" priority="0">
 
     <seo>
         <meta name="robots" content="index,follow" />
@@ -27,17 +27,41 @@
             content=""/>
         <meta name="twitter:card" content="summary" />
     </seo>
-    <title>Projeto Site GTA</title>
+    <title>Projeto - Landing Page GTA</title>
     </head>
     <body>
-        <header>
-
+        <header class="cabecalho">
+            <div class="logo">
+                <img src="./src/assets/logo-rockstar.svg" alt="logo rockstar">
+                <hr>
+                <img src="./src/assets/logo-gta.svg" alt="logo gta V">
+            </div>
+            <nav>
+                <ul class="menu">
+                    <li>
+                        <a href="#home">Home</a>
+                    </li>
+                    <li>
+                        <a href="#comprar">Comprar</a>
+                    </li>
+                    <li>
+                        <a href="" target="_blank">Suporte</a>
+                    </li>
+                </ul>
+            </nav>
         </header>
-        <main>
-            <h1>Já disponíveis para PlayStation 5 e Xbox Series X|S</h1>
-            <p>Experimente os fenômenos do entretenimento Grand Theft Auto V e GTA Online.</p>
-            <p>hello world!</p>
+        <main class="home" id="home">
+            <img class="img-fundo" src="./src/assets/bg-main.png" alt="Rapaz de moletom laranja ao lado de um carro esportivo amarelo">
+            <div class="info">
+                <div class="lista-de-jogos"></div>
+                <h1 class="titulo">Já disponíveis para PlayStation 5 e Xbox Series X|S</h1>
+                <p class="texto">Experimente os fenômenos do entretenimento Grand Theft Auto V e GTA Online.</p>
+                <a class="btn-comprar" href="#compar">Compre Já</a>
+            </div>
         </main>
+        <section class="compre-ja" id="comprar">
+
+        </section>
         <footer>
             <div id="direitos" class="direitos">
                 <div class="loading ">
